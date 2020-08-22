@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RestSuite" verbose="1" parallel="false">
+
+  <test name="RestGetRequest">
+    <classes>
+      <class name="tests.CCAutomationTest">
+      </class>
+    </classes>
+  </test>
+</suite>
