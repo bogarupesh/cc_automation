@@ -39,10 +39,10 @@ public class CCAutomationTest {
 	
 	@Test
 	public void book() throws IOException, InterruptedException{
-
+// CC Home page initialize
 		CCHomePage homepage=new CCHomePage(driver);
 		
-		//2.	Expend the "SHOWS” menu, and click on the first option in the expanded list (highlighted in the screenshot below) 
+		//2. Expend the "SHOWS” menu, and click on the first option in the expanded list (highlighted in the screenshot below) 
 		// Navigate to Shows Link
 		homepage.clickonShowsLink();
 		
